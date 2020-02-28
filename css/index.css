@@ -1,0 +1,38 @@
+p {
+    color: red;
+    /* 对齐方式 */
+    direction: ltr;
+    /* 字符间距 */
+    letter-spacing: 20px;
+    /* 行高 */
+    line-height: 50px;
+    /* 文本对齐方式-两端对齐 */
+    text-align: left;
+}
+
+.p1 {
+    background-color: yellow;
+    font-family: 隶书;
+}
+
+.p2 {
+    direction: ltr;
+    text-decoration: line-through;
+    text-shadow: 5px 5px 5px red;
+    text-transform: capitalize;
+    /* 字符单位em */
+    text-indent: 2em;
+}
+
+body {
+    /* background-color: #f5f5f5; */
+    /* background-image: url("../html/image/down.gif"); */
+    /* 图片的重复方向 */
+    /* background-repeat: repeat-y; */
+    /* 背景滚动 */
+    /* background-attachment: fixed; */
+    /* background-position: 100px 20px; */
+
+    /* 一个就把之前的包含了，必须满足顺序要求 */
+    background: orange url("../html/image/down.gif") no-repeat fixed right;
+}
