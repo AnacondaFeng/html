@@ -1,0 +1,106 @@
+#div1 {
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    /* 位置 */
+    position: absolute;
+    top: 150px;
+    left: 550px;
+    /* 超出的部分 */
+    overflow: auto;
+
+    /* 边框 dashed虚线*/
+    outline: dashed;
+    /* 边框，有四种属性 下边框*/
+    border-bottom: solid;
+}
+
+#div2 {
+    position: absolute;
+    top: 150px;
+    left: 750px;
+    /* border-bottom: solid; */
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+/* 盒子模型 */
+/* 外边距margin，内边距padding，边框border */
+/* 四个方向：top bottom left right */
+
+/* div {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+} */
+
+#div3 {
+    background-color: yellow;
+    position: absolute;
+    top: 400px;
+    left: 450px;
+    /* 盒子固定大小，压缩内容显示 */
+    box-sizing: border-box;
+}
+
+#div4 {
+    background-color: blue;
+    position: absolute;
+    top: 400px;
+    left: 550px;
+}
+
+/* * {
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+} */
+
+#d1 {
+    background-color: yellow;
+    /* 设置float就被挤走了 */
+    float: right;
+}
+#d2 {
+    background-color: red;
+    float: left;
+}
+#d3 {
+    background-color: blue;
+    float: left;
+}
+
+#dd1 {
+    border: 1px solid black;
+    background-color: red;
+    /* position: absolute; */
+    /* top: 600px;*/
+    width: 400px; 
+}
+
+#dd2 {
+    background-color: yellow;
+    height: 230px;
+    width: 200px; 
+    float: left;
+}
+
+#dd3 {
+    background-color: blue;
+    height: 160px;
+    width: 530px;
+    float: left;
+}
+
+#dbg1 {
+    background-color: red;
+    float: left;
+}
+img {
+    /* 垂直对齐 底边对齐 */
+    /* 行级元素变为块级元素 */
+    vertical-align: bottom;
+}
