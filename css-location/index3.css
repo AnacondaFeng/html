@@ -1,0 +1,38 @@
+div {
+    width: 100px;
+    height: 100px;
+}
+
+.main {
+    /* position: absolute; */
+    /* left: 300px; */
+    height: 300px;
+    position: relative;
+    right: 10px;
+    float: right;
+}
+
+.div1 {
+    background-color: red;
+    /* left: 200px;
+    position: relative; */
+    /* 因为绝对定位破坏了文档流 */
+}
+
+.div2 {
+    background-color: green;
+    /* left: 200px;
+    position: relative; */
+}
+
+.div3 {
+    background-color: blue;
+    /* left: 200px;
+    position: relative; */
+}
+
+/* 绝对定位于float都能产生浮动，怎么区分？ */
+/* 绝对定位：剩下元素会忽略绝对定位的元素 */
+/* float： 形成环绕*/
+
+/* 浮动 和 相对定位的结合 */

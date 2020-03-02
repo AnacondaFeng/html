@@ -1,0 +1,10 @@
+.main {
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    
+    position: absolute;
+    /* 不设置position没有任何效果 */
+    top: 20px;
+    left: 120px;
+}

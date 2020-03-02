@@ -1,0 +1,23 @@
+.div1 {
+    width: 5%;
+    height: 100px;
+    background-color: red;
+    /* 固定定位 位置不发生改变 */
+    /* fixed不受任何元素影响 */
+    position: fixed;
+    top: 200px;
+    left: 2%;
+}
+.div2 {
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+.div3 {
+    width: 5%;
+    height: 100px;
+    position: fixed;
+    top: 200px;
+    right: 2%;
+    background-color: red;
+}
