@@ -8,7 +8,7 @@
     <script src="form.js"></script>
 </head>
 
-<body onload="fun_show1()">
+<body onload="fun_show1(),fun_ymd(),fun_initLogo()">
     <form action="">
         <label for="">用户名</label>
         <input type="text" name="userName" id="userName"><br>
@@ -16,6 +16,25 @@
         <input type="radio" name="xb" id="" value="woman">女<br>
 
         <input type="button" id="btn" onclick="fun_show1(),fun_show2()" value="button">
+    </form>
+
+    <form action="">
+        <select name="yyyy" id="yyyy" onchange="fun_selectYmd()"></select>年
+        <select name="mm" id="mm" onchange="fun_selectYmd()"></select>月
+        <select name="dd" id="dd"></select>日
+        <input type="button" value="删除列表框条目" onclick="fun_deleteSelect()">
+
+        <img id="logoImg" src="../image/down.gif" alt="">
+        <select name="logo" id="logo" onchange="selectLogo()"></select>
+    </form>
+
+    <form action="">
+        <input type="checkbox" name="interest" id=""><label for="">游泳</label>
+        <input type="checkbox" name="interest" id=""><label for="">唱歌</label>
+        <input type="checkbox" name="interest" id=""><label for="">爬山</label>
+        <input type="checkbox" name="interest" id=""><label for="">加油</label>
+        <input type="button" id="btn1" value="全选" onclick="fun_checkInterest()">
+        <input type="button" value="反选" onclick="fun_checkInterest1()">
     </form>
 </body>
 
