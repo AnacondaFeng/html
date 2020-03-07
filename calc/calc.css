@@ -24,9 +24,16 @@ input[type="button"]{
 }
 
 input[type="text"]{
-    width: 425px;
+    width: 420px;
     height: 35px;
     text-align: right;
     background-color: white;
     font-size: 30px;
+    padding-right: 5px;
+}
+
+/* 伪类 */
+input[type="button"]:hover{
+    background-color:yellow;
+    border: 1px solid;
 }
