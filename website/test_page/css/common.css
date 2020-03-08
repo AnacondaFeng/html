@@ -1,0 +1,58 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    margin: 25px auto 0 50px;
+    /*上 右 下 左*/
+}
+
+.header .menu ul {
+    display: none;
+    /*不显示ul*/
+}
+
+.header .logo {
+    float: left;
+    position: relative;
+}
+
+.header .menu {
+    float: left;
+    position: relative;
+    margin-top: 12px;
+    margin-left: 16px;
+}
+
+/* .header .menu:hover ul{
+    display: block;
+} */
+
+.header .menu ul li {
+    margin-top: 20px;
+    text-align: center;
+    list-style: none;
+}
+
+.header .menu .menu_title {
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    width: 80px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header .auth {
+    float: right;
+}
+
+.header .auth ul li {
+    float: left;
+    margin-right: 70px;
+    margin-top: 12px;
+    list-style: none;
+}
